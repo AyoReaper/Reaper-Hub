@@ -294,6 +294,7 @@ local GameTable = {
     ['Fishing Frenzy Simulator:13284033561'] = 'https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/fishingfrenzysimulator.lua',
     ['ONE FRUIT:11445923563'] = 'https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/onefruit.lua',
     ['Yeet A Friend!:11708967881'] = 'https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/yeetafriend.lua',
+    ['Race Clicker:9285238704'] = 'https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/raceclicker.lua',
 
 }
 -----ADD GAME TO ABOVE TABLE USING FOLLOWING FORMAT - ['GameNameToDisplay:GameID'] = raw github link(DO NOT PUT LOADSTRING ONLY LINK)

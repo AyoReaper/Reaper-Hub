@@ -34,53 +34,53 @@ local Themes = {
 	Names = {
 		"Reaper Hub"
 	},
-	ReaperHub = {
-		Name = "Reaper Hub",
-		Accent = Color3.fromRGB(150, 0, 205),
-
-		AcrylicMain = Color3.fromRGB(20, 20, 20),
-		AcrylicBorder = Color3.fromRGB(40, 40, 40), 
-		AcrylicGradient = ColorSequence.new(Color3.fromRGB(30, 30, 30), Color3.fromRGB(10, 10, 10)),
-		AcrylicNoise = 0.8,
-	
-		TitleBarLine = Color3.fromRGB(90, 90, 90),
-		Tab = Color3.fromRGB(180, 0, 0),
-	
-		Element = Color3.fromRGB(180, 0, 0),
-		ElementBorder = Color3.fromRGB(50, 50, 50),
-		InElementBorder = Color3.fromRGB(80, 80, 80),
-		ElementTransparency = 0.75,
-	
-		ToggleSlider = Color3.fromRGB(200, 0, 0),
-		ToggleToggled = Color3.fromRGB(150, 0, 205),
-	
-		SliderRail = Color3.fromRGB(160, 160, 160),
-	
-		DropdownFrame = Color3.fromRGB(30, 30, 30),
-		DropdownHolder = Color3.fromRGB(50, 50, 50),
-		DropdownBorder = Color3.fromRGB(180, 0, 0),
-		DropdownOption = Color3.fromRGB(220, 0, 0),
-	
-		Keybind = Color3.fromRGB(160, 0, 0),
-	
-		Input = Color3.fromRGB(180, 180, 180),
-		InputFocused = Color3.fromRGB(0, 0, 0),
-		InputIndicator = Color3.fromRGB(255, 50, 50),
-	
-		Dialog = Color3.fromRGB(30, 30, 30),
-		DialogHolder = Color3.fromRGB(45, 45, 45),
-		DialogHolderLine = Color3.fromRGB(180, 0, 0),
-		DialogButton = Color3.fromRGB(30, 30, 30),
-		DialogButtonBorder = Color3.fromRGB(255, 0, 0),
-		DialogBorder = Color3.fromRGB(70, 70, 70),
-		DialogInput = Color3.fromRGB(40, 40, 40),
-		DialogInputLine = Color3.fromRGB(220, 0, 0),
-	
-		Text = Color3.fromRGB(150, 0, 205),
-		SubText = Color3.fromRGB(170, 170, 170),
-		Hover = Color3.fromRGB(220, 0, 0),
-		HoverChange = 0.08,
-	}    
+    ReaperHub = {
+        Name = "Reaper Hub",
+        Accent = Color3.fromRGB(150, 0, 205),
+    
+        AcrylicMain = Color3.fromRGB(20, 20, 20),
+        AcrylicBorder = Color3.fromRGB(40, 40, 40),
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(30, 30, 30), Color3.fromRGB(10, 10, 10)),
+        AcrylicNoise = 0.8,
+    
+        TitleBarLine = Color3.fromRGB(90, 90, 90),
+        Tab = Color3.fromRGB(150, 0, 205),
+    
+        Element = Color3.fromRGB(150, 0, 205),
+        ElementBorder = Color3.fromRGB(50, 50, 50),
+        InElementBorder = Color3.fromRGB(80, 80, 80),
+        ElementTransparency = 0.75,
+    
+        ToggleSlider = Color3.fromRGB(150, 0, 205),
+        ToggleToggled = Color3.fromRGB(255, 255, 255),
+    
+        SliderRail = Color3.fromRGB(160, 160, 160),
+    
+        DropdownFrame = Color3.fromRGB(30, 30, 30),
+        DropdownHolder = Color3.fromRGB(50, 50, 50),
+        DropdownBorder = Color3.fromRGB(150, 0, 205),
+        DropdownOption = Color3.fromRGB(150, 0, 205),
+    
+        Keybind = Color3.fromRGB(150, 0, 205),
+    
+        Input = Color3.fromRGB(180, 180, 180),
+        InputFocused = Color3.fromRGB(0, 0, 0),
+        InputIndicator = Color3.fromRGB(150, 0, 205),
+    
+        Dialog = Color3.fromRGB(30, 30, 30),
+        DialogHolder = Color3.fromRGB(45, 45, 45),
+        DialogHolderLine = Color3.fromRGB(150, 0, 205),
+        DialogButton = Color3.fromRGB(30, 30, 30),
+        DialogButtonBorder = Color3.fromRGB(150, 0, 205),
+        DialogBorder = Color3.fromRGB(70, 70, 70),
+        DialogInput = Color3.fromRGB(40, 40, 40),
+        DialogInputLine = Color3.fromRGB(150, 0, 205),
+    
+        Text = Color3.fromRGB(255, 255, 255),
+        SubText = Color3.fromRGB(170, 170, 170),
+        Hover = Color3.fromRGB(150, 0, 205),
+        HoverChange = 0.08,
+    }   
 }
 
 local Library = {

@@ -52,7 +52,7 @@ local Themes = {
 		ElementTransparency = 0.75,
 	
 		ToggleSlider = Color3.fromRGB(200, 0, 0),
-		ToggleToggled = Color3.fromRGB(255, 255, 255),
+		ToggleToggled = Color3.fromRGB(150, 0, 205),
 	
 		SliderRail = Color3.fromRGB(160, 160, 160),
 	
@@ -76,7 +76,7 @@ local Themes = {
 		DialogInput = Color3.fromRGB(40, 40, 40),
 		DialogInputLine = Color3.fromRGB(220, 0, 0),
 	
-		Text = Color3.fromRGB(255, 255, 255),
+		Text = Color3.fromRGB(150, 0, 205),
 		SubText = Color3.fromRGB(170, 170, 170),
 		Hover = Color3.fromRGB(220, 0, 0),
 		HoverChange = 0.08,
@@ -84,7 +84,7 @@ local Themes = {
 }
 
 local Library = {
-	Version = "4.0.0",
+	--Version = "4.0.0",
 
 	OpenFrames = {},
 	Options = {},
@@ -5624,4 +5624,4 @@ else
 	Fluent = Library
 end
 
-return Library, SaveManager, InterfaceManagerF
+return Library, SaveManager, InterfaceManager

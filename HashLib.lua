@@ -1477,7 +1477,22 @@ local function hmac(hash_func, key, message, AsBinary)
 	end
 end
 
+local function bxorEncrypt(data, key)
+	local result = {}
+    local keyLength = #key
+
+    for i = 1, #data do
+        local dataByte = string.byte(data, i)
+        local keyByte = string.byte(key, (i - 1) % keyLength + 1)
+        local encryptedByte = bit32.bxor(dataByte, keyByte)
+        table.insert(result, string.char(encryptedByte))
+    end
+
+    return table.concat(result)
+end
+
 local sha = {
+	bxorEncrypt = bxorEncrypt,
 	md5 = md5,
 	sha1 = sha1,
 	-- SHA2 hash functions:
